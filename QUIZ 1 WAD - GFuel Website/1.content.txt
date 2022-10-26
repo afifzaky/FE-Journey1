@@ -1,10 +1,11 @@
 Navbar + Icon + Login (DONE)
-Link from Navbar 
+Link from Navbar (DONE)
 Jumbotron or Carousel (DONE)
 Card (DONE)
-Tabel
+Tabel (DONE)
 Progress Bar
-Form 
+Form (DONE)
 Informasi Lokasi Google Maps dan Video Youtube Profil Website (DONE)
 Popup Modal (DONE)
 Footer (DONe)
+PROBIS ADMIN DAN USER 
