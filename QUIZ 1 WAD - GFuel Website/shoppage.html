@@ -37,7 +37,7 @@
                             <a class="nav-link" href="#about">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="cards2.html">Shop Now</a>
+                            <a class="nav-link" href="cards.html">Shop Now</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="contact.html">Contact Us</a>
@@ -58,28 +58,219 @@
             </div>
         </nav>
     </section>
+    </section>
+    <section class="modalLog" id="modalLogin">
+        <div class="modal fade" id="login" tabindex="-1" aria-labelledby="loginLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                        <div class="myform bg-light">
+                            <h1 style=color:crimson; class="text-center">Login</h1>
+                            <form>
+                                <div class="mb-3 mt-4">
+                                    <label for="exampleInputEmail1" class="form-label">Username</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <a href="user.html" class="btn btn-danger" tabindex="-1" role="button"
+                                    aria-disabled="true">Login</a>
+                                <a href="admin.html" class="btn btn-danger" tabindex="-1" role="button"
+                                    aria-disabled="true">Login As Admin</a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="modalReg" id="modalregister">
+        <div class="modal fade" id="register" tabindex="-1" aria-labelledby="registerLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                        <div class="myform bg-light">
+                            <h1 style=color:crimson; class="text-center">Register</h1>
+                            <form>
+                                <div class="mb-3 mt-4">
+                                    <label for="exampleInputEmail1" class="form-label">Username</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                </div>
+                                <div class="mb-3 mt-4">
+                                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <a href="progressbar.html">
+                                    <button type="submit" class="btn btn-danger mt-3">Register</button>
+                                </a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="modalPay" id="modalPaying">
+        <div class="modal fade" id="paying" tabindex="-1" aria-labelledby="payingLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                        <div class="myform">
+                            <h3 class="text-center">Thank You For Buying This Product</h3>
+                            <a href="cards.html">
+                                <button class="btn btn-danger mt-5" type="submit">Go Back</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
         <section class="py-5">
             <div class="container px-4 px-lg-5 my-5">
                 <div class="row gx-4 gx-lg-5 align-items-center">
                     <div class="col-md-6"><img class="card-img-top mb-5 mb-md-0"
-                            src="https://dummyimage.com/600x700/dee2e6/6c757d.jpg" alt="..." /></div>
+                            src="http://cdn.shopify.com/s/files/1/0223/3113/products/snow-cone-tub-g-fuel-gamer-drink-299926.png?v=1660320926" alt="..." /></div>
                     <div class="col-md-6">
-                        <div class="small mb-1">SKU: BST-498</div>
-                        <h1 class="display-5 fw-bolder">Shop item template</h1>
+                        <div class="small mb-1" style="color:crimson;">NEW</div>
+                        <h1 class="display-5 fw-bolder" style="color:crimson;">Snow Cone</h1>
                         <div class="fs-5 mb-5">
-                            <span class="text-decoration-line-through">$45.00</span>
-                            <span>$40.00</span>
+                            <span class="text-decoration-line-through" style="color:crimson;">$45.00</span>
+                            <span>$35.00</span>
+                            <br>
+                            <span>Shipping calculated at checkout</span>
                         </div>
-                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium at dolorem quidem
-                            modi. Nam sequi consequatur obcaecati excepturi alias magni, accusamus eius blanditiis delectus
-                            ipsam minima ea iste laborum vero?</p>
-                        <div class="d-flex">
-                            <input class="form-control text-center me-3" id="inputQuantity" type="num" value="1"
-                                style="max-width: 3rem" />
-                            <button class="btn btn-outline-dark flex-shrink-0" type="button">
-                                <i class="bi-cart-fill me-1"></i>
-                                Add to cart
-                            </button>
+                        <button type="button" class="collapsible btn btn-outline-danger">Description</button>
+                        <div class="content">
+                            <p>It’s the middle of July. It’s a million degrees outside. The AC in your house is broken. Your pool is broken. You dare
+                            to go outside. The baking hot sun is beaming down on you. You just missed the ice cream man. All hope is lost. The end
+                            is near. Or so you think...
+                            <br>
+                            You remember something! There is one last beacon of refuge! You run back in your house, sprint to the kitchen, open the
+                            fridge…and there it is… an ice-cold Shaker full to the brim with G FUEL SNOW CONE…SWEET RELIEF!!! THE SHAVED ICE OF THE
+                            GAMMA GODS!!! Life makes sense once again.</p>
+                        </div>
+                        <button type="button" class="collapsible btn btn-outline-danger">Key Benefit</button>
+                        <div class="content">
+                        <p><strong>0 SUGAR</strong><br>Unlike our “competitors” who rely on loads of sugar to provide you with a false sense ofenergy, we don’t – Which means zero “crash”.</p>
+                        <p><strong>ENERGY COMPLEX</strong><br> Caffeine is a natural stimulant consumed worldwide. The primary benefit is that
+                            of cognitive function stimulation - Essentially giving your mind a “jump start” when it needs it most.</p>
+                        <p><strong>FOCUS AMINO-FORTIFIED</strong><br> Our addition of a focus amino provides you with a unique edge that most
+                            other drinks on the market cannot.</p>
+                        <p><strong>PACKED WITH ANTIOXIDANTS</strong><br> Just the right balance of antioxidants that work in tandem with our
+                            vitamin complex to promote healthy cell production.</p>
+                        <p><strong>VITAMIN-FORTIFIED</strong><br><span>Our formula contains the perfect combination and subtle ratio of Vitamins
+                                C + E + B12 + B6</span></p>
+                        </div>
+                        <button type="button" class="collapsible btn btn-outline-danger">Shipping Information</button>
+                        <div class="content">
+                        <strong>PLEASE ALLOW 5-7 BUSINESS DAYS FOR YOUR ORDER TO BE PROCESSED. DURING LARGER SALES, PROMOTIONS, NEW PRODUCT
+                            RELEASES, AND HOLIDAYS, PROCESSING TIME MAY TAKE UP TO 10 BUSINESS DAYS. </strong>
+                        <p>We ship everywhere in the United States, Canada, United Kingdom, and practically everywhere else in the world. The
+                            following countries currently do not accept G FUEL packages: Guatemala, Iceland, Jamaica, Mexico, Russia, South
+                            Africa, Ukraine OR ANY OVER SEAS PACK-STATIONS. Not sure if we ship to your country? Just give us a call at 1 (877)
+                            426-6262.<br><br>Having an issue with the order you received? No problemo! Just head to the link below and we’ll
+                            drop some “return policy” knowledge on you.</p>
+                        </div>
+                        <script>
+                            var coll = document.getElementsByClassName("collapsible");
+                            var i;
+                            for (i = 0; i < coll.length; i++) {
+                                coll[i].addEventListener("click", function () {
+                                    this.classList.toggle("active");
+                                    var content = this.nextElementSibling;
+                                    if (content.style.display === "block") {
+                                        content.style.display = "none";
+                                    } else {
+                                        content.style.display = "block";
+                                    }
+                                });
+                            }
+                        </script>
+                        <div class="container">
+                        <br>
+                        <div class="buy">
+                            <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                data-bs-target="#buy">Buy Now</button>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="modalBuy" id="modalBuynow">
+            <div class="modal fade" id="buy" tabindex="-1" aria-labelledby="BuyLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                                aria-label="Close"></button>
+                            <div class="myform bg-light">
+                                <h1 style=color:crimson; class="text-center">CHECKOUT</h1>
+                                <form>
+                                    <div class="mb-3 mt-4">
+                                        <label for="exampleInputEmail1" class="form-label">Name</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleInputPassword1" class="form-label">Address</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleInputPassword1" class="form-label">Phone Number</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label" for="message">Add Notes (Optional)</label>
+                                        <textarea class="form-control" id="message" type="text" style="height: 10rem;"
+                                            data-sb-validations="required"></textarea>
+                                    </div>
+                                    <h4 style="color:crimson;" class="text-center">Payment</h4>
+                                    <br>
+                                    <div class="form-check form-check-inline">
+                                        <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>Cash on Demand
+                                        <label class="form-check-label" for="radio1"></label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">Mastercard
+                                        <label class="form-check-label" for="radio2"></label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input type="radio" class="form-check-input"id="radio3" name="optradio" value="option3">Paypal
+                                        <label class="form-check-label"></label>
+                                    </div>
+                                    <div class="mb-3">
+                                        <br>
+                                        <div class="mb-3 mt-4">
+                                            <label for="exampleInputEmail1" class="form-label">Username / Card ID</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                        </div>
+                                        <label class="form-label" for="message">Insert Pin / Card Password</label>
+                                        <input type="password" class="form-control" id="inputPassword">
+                                    </div>
+                                    <div class="d-grid">
+                                        <br>
+                                        <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                            data-bs-target="#paying">Buy Now</button>
+                                    </div>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -88,39 +279,43 @@
         <!-- Related items section-->
         <section class="py-5 bg-light">
             <div class="container px-4 px-lg-5 mt-5">
-                <h2 class="fw-bolder mb-4">Related products</h2>
+                <h2 class="fw-bolder mb-4 text-center" style="color: crimson;">RELATED PRODUCTS</h2>
+                <br>
                 <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
                     <div class="col mb-5">
                         <div class="card h-100">
                             <!-- Product image-->
-                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <img class="card-img-top" src="http://cdn.shopify.com/s/files/1/0223/3113/products/the-juice-tub-g-fuel-gamer-drink-214795.png?v=1660320216" alt="..." />
                             <!-- Product details-->
                             <div class="card-body p-4">
+                                <div class="badge bg-danger text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Top Selling Last Week
+                                </div>
                                 <div class="text-center">
                                     <!-- Product name-->
-                                    <h5 class="fw-bolder">Fancy Product</h5>
+                                    <h5 class="fw-bolder">THE JUICE</h5>
                                     <!-- Product price-->
-                                    $40.00 - $80.00
+                                    <span class="text-muted text-decoration-line-through">$35.00</span>
+                                    $30.00
                                 </div>
                             </div>
                             <!-- Product actions-->
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">View options</a></div>
+                                <div class="text-center"><a class="btn btn-danger mt-auto" href="#">Buy Now</a></div>
                             </div>
                         </div>
                     </div>
                     <div class="col mb-5">
                         <div class="card h-100">
                             <!-- Sale badge-->
-                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale
+                            <div class="badge bg-danger text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Limited Restock
                             </div>
                             <!-- Product image-->
-                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <img class="card-img-top" src="http://cdn.shopify.com/s/files/1/0223/3113/products/miami-nights-tub-g-fuel-gamer-drink-272248.png?v=1660319874" alt="..." />
                             <!-- Product details-->
                             <div class="card-body p-4">
                                 <div class="text-center">
                                     <!-- Product name-->
-                                    <h5 class="fw-bolder">Special Item</h5>
+                                    <h5 class="fw-bolder">MIAMI NIGHT</h5>
                                     <!-- Product reviews-->
                                     <div class="d-flex justify-content-center small text-warning mb-2">
                                         <div class="bi-star-fill"></div>
@@ -130,48 +325,49 @@
                                         <div class="bi-star-fill"></div>
                                     </div>
                                     <!-- Product price-->
-                                    <span class="text-muted text-decoration-line-through">$20.00</span>
-                                    $18.00
+                                    $28.00
                                 </div>
                             </div>
                             <!-- Product actions-->
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                                <div class="text-center"><a class="btn btn-danger" href="#">Buy Now</a></div>
                             </div>
                         </div>
                     </div>
                     <div class="col mb-5">
                         <div class="card h-100">
                             <!-- Sale badge-->
-                            <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale
+                            <div class="badge bg-danger text-white position-absolute" style="top: 0.5rem; right: 0.5rem">New
                             </div>
                             <!-- Product image-->
-                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <img class="card-img-top" src="http://cdn.shopify.com/s/files/1/0223/3113/products/bubble-gum-tub-g-fuel-gamer-drink-979949.png?v=1660320229" alt="..." />
                             <!-- Product details-->
                             <div class="card-body p-4">
                                 <div class="text-center">
                                     <!-- Product name-->
-                                    <h5 class="fw-bolder">Sale Item</h5>
+                                    <h5 class="fw-bolder">BUBBLE GUM</h5>
                                     <!-- Product price-->
-                                    <span class="text-muted text-decoration-line-through">$50.00</span>
-                                    $25.00
+                                    <span class="text-muted text-decoration-line-through">$40.00</span>
+                                    $32.00
                                 </div>
                             </div>
                             <!-- Product actions-->
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                                <div class="text-center"><a class="btn btn-danger mt-auto" href="#">Buy Now</a></div>
                             </div>
                         </div>
                     </div>
                     <div class="col mb-5">
                         <div class="card h-100">
+                            <div class="badge bg-danger text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Pre Order
+                            </div>
                             <!-- Product image-->
-                            <img class="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
+                            <img class="card-img-top" src="https://mlpnk72yciwc.i.optimole.com/cqhiHLc.IIZS~2ef73/w:auto/h:auto/q:75/https://bleedingcool.com/wp-content/uploads/2021/06/G-Fuel-Scarlet-Nexus-1.jpg" alt="..." />
                             <!-- Product details-->
                             <div class="card-body p-4">
                                 <div class="text-center">
                                     <!-- Product name-->
-                                    <h5 class="fw-bolder">Popular Item</h5>
+                                    <h5 class="fw-bolder">SCARLET NEXUS</h5>
                                     <!-- Product reviews-->
                                     <div class="d-flex justify-content-center small text-warning mb-2">
                                         <div class="bi-star-fill"></div>
@@ -186,12 +382,72 @@
                             </div>
                             <!-- Product actions-->
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                                <div class="text-center"><a class="btn btn-danger mt-auto" href="#">Buy Now</a></div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+    <section class="footer2" id="footer">
+        <br>
+        <div class="container-fluid text-center p-4" style="background-color: rgba(0, 0, 0, 0.800);">
+            <footer class="py-6">
+                <div class="row">
+                    <div class="col-6 col-md-2 mb-3">
+                        <h5 style="color:crimson;">GFUEL®</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2">
+                                <a href="index.html" class="nav-link p-0 text-white">Home</a>
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a href="index.html" class="nav-link p-0 text-white">About Us</a>
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a href="contact.html" class="nav-link p-0 text-white">Contact Us</a>
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a href="cards.html" class="nav-link p-0 text-white">Shop Now</a>
+                            </li>
+                            <li class="nav-item mb-2">
+                                <a href="shoploc.html" class="nav-link p-0 text-white">Store Location</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-5 offset-md-1 mb-3">
+                        <form>
+                            <div class="col align-self-center">
+                                <h5 style="color:crimson;">GFUEL SCOOP NEWSLETTER</h5>
+                                <p style="color:white;">Get The Latest News Of Our Product</p>
+                            </div>
+                            <div class="col align-self-center">
+                                <label for="newsletter1" class="visually-hidden">Email address</label>
+                                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                                <br>
+                                <div class="d-grid gap-2">
+                                    <button class="btn btn-danger" type="button">Subscribe</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-4" id="photos">
+                        <h2 style="color:crimson;">GFUEL Powered By :</h2>
+                        <br>
+                        <img src="https://www.kindpng.com/picc/m/202-2020299_gamma-labs-logo-png-transparent-png.png"
+                            width="200" height="90" alt="GLlogo">
+                    </div>
+            </footer>
+        </div>
+        <div class="container-fluid text-center p-4" style="background-color: rgb(0, 0, 0);" id="copyright">
+            <p style="font-size: large;" class="text-white">© 2022 Gamma Labs Company, Inc. All rights reserved.</p>
+            <p class="text-white">The statements contained in this website have not been evaluated by the Food and Drug
+                Administration (FDA). No
+                statements shall be construed as a claim or representation of a diagnosis, treatment, cure, or prevention of
+                any
+                disease. No product listed in this website is intended to diagnose, treat, cure, or prevent any disease.
+                Products
+                are not intended for those with a medical condition, pregnant or nursing.</p>
+        </div>
+    </section>
 </body>
 </html>
